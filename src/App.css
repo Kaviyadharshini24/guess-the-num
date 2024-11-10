@@ -1,0 +1,35 @@
+body{
+  background-color:#78AF6E;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:15%;
+}
+.container{
+  padding:10px;
+  border:2px solid whitesmoke;
+  width:500px;
+  border-radius:16px;
+  display:flex;
+  flex-direction:column;
+  color:rgb(255,255,255);
+  background-color:#91BE89
+}
+.head{
+  font-weight:600;
+  font-size:20px;
+  margin-bottom:20px;
+}
+input{
+  padding:10px;
+  border:1px solid black;
+  border-radius:10px
+}
+/* input:hover{
+  background-color:#9e9b98;
+
+} */
+input:focus{
+  border:0px;
+  background-color:#F7FFDD
+}
